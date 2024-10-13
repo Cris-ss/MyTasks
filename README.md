@@ -43,7 +43,7 @@ Este é um aplicativo Android de gerenciamento de tarefas que permite aos usuár
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/MyTasks.git
+   git clone https://github.com/Cris-ss/MyTasks.git
    cd MyTasks
 
 2. Abra o projeto no Android Studio.
