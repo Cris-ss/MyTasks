@@ -43,7 +43,7 @@ Este é um aplicativo Android de gerenciamento de tarefas que permite aos usuár
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/seu-usuario/MyTasks.git
    cd seu-repositorio
 
 2. Abra o projeto no Android Studio.
@@ -55,17 +55,7 @@ Este é um aplicativo Android de gerenciamento de tarefas que permite aos usuár
 4. Execute o aplicativo em um dispositivo Android ou emulador.
 
 
-Contribuições são bem-vindas! Se você deseja ajudar a melhorar este projeto, sinta-se à vontade para abrir um "issue" ou "pull request".
 
 
-Licença
-Este projeto é de código aberto e está licenciado sob a Licença MIT.
 
 
-### Detalhes a serem preenchidos
-
-- **URL do repositório:** Substitua a URL do repositório pelo link real onde seu projeto está hospedado.
-- **Autores:** Adicione mais autores se houver.
-- **Licença:** Caso utilize uma licença diferente da MIT, modifique a seção correspondente.
-
-Sinta-se à vontade para adicionar mais seções conforme necessário, como uma seção de perguntas frequentes ou uma lista de recursos.
