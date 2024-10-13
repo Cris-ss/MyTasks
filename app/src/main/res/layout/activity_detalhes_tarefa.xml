@@ -1,0 +1,87 @@
+<!-- res/layout/activity_detalhes_tarefa.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".DetalhesTarefaActivity">
+
+    <!-- Título da tarefa -->
+    <TextView
+        android:id="@+id/textTituloDetalhe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/t_tulo_da_tarefa"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- Descrição da tarefa -->
+    <TextView
+        android:id="@+id/textDescricaoDetalhe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/descri_o_da_tarefa"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/textTituloDetalhe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- Data da tarefa -->
+    <TextView
+        android:id="@+id/textDataDetalhe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/data_da_tarefa"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/textDescricaoDetalhe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- Hora da tarefa -->
+    <TextView
+        android:id="@+id/textHoraDetalhe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Hora"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/textDataDetalhe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- Botões de editar e excluir -->
+
+    <Button
+        android:id="@+id/btnEditarTarefa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/editar"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textDataDetalhe" />
+
+    <Button
+        android:id="@+id/btnExcluirTarefa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="#F84040"
+        android:text="@string/excluir"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textDataDetalhe" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

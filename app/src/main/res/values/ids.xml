@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tituloLayout" type="id" />
+    <item name="editTitulo" type="id" />
+    <item name="descricaoLayout" type="id" />
+    <item name="editDescricao" type="id" />
+    <item name="dataLayout" type="id" />
+    <item name="editData" type="id" />
+    <item name="btnSalvarTarefa" type="id" />
+    <item name="textTituloDetalhe" type="id" />
+    <item name="textDescricaoDetalhe" type="id" />
+    <item name="textDataDetalhe" type="id" />
+    <item name="btnEditarTarefa" type="id" />
+    <item name="btnExcluirTarefa" type="id" />
+    <item name="textHoraDetalhe" type="id"/>
+</resources>

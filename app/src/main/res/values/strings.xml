@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Aplicativo</string>
+    <string name="t_tulo">Título</string>
+    <string name="descri_o">Descrição</string>
+    <string name="excluir">Excluir</string>
+    <string name="t_tulo_da_tarefa">Título da Tarefa</string>
+    <string name="descri_o_da_tarefa">Descrição da Tarefa</string>
+    <string name="data_da_tarefa">Data da Tarefa</string>
+    <string name="editar">Editar</string>
+    <string name="adicionar_nova_tarefa">Adicionar nova tarefa</string>
+    <string name="data">Data</string>
+    <string name="salvar">Salvar</string>
+    <string name="hora">hora</string>
+    <string name="data_format">%1$s/</string>
+    <string name="hora_format">%1$s:</string>
+
+</resources>
